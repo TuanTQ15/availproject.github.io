@@ -151,28 +151,28 @@ sudo ufw allow 3000/tcp
 
 In your browser navigate to `http://<your validators ip address>:3000`. The default login username and password is admin/admin
 
-<img src="/img/avail/validator-avail-grafana.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-grafana.png" width="100%" height="100%"/>
 
 You will be asked to reset your password, please write it down or remember the password as you will need it for the next login.
 
 You will need to create a datasource. Navigate to **Home->Connections->Data sources**
 
-<img src="/img/avail/validator-avail-grafana-add-data-source.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-grafana-add-data-source.png" width="100%" height="100%"/>
 
 Click on **Add data source**
-<img src="/img/avail/validator-avail-grafana-add-data-source-2.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-grafana-add-data-source-2.png" width="100%" height="100%"/>
 
 Click on **Prometheus**
-<img src="/img/avail/validator-avail-grafana-add-data-source-3.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-grafana-add-data-source-3.png" width="100%" height="100%"/>
 
 Set URL to "localhost:9090", then test and save the connection
-<img src="/img/avail/validator-avail-grafana-add-data-source-4.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-grafana-add-data-source-4.png" width="100%" height="100%"/>
 
 Navigate back to your home page, on the top right in the menu select **Import dashboard**
-<img src="/img/avail/validator-avail-grafana-add-dashboard.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-grafana-add-dashboard.png" width="100%" height="100%"/>
 
 Import the [Avail Node Metrics](../../../static/grafana/Avail-Node-Metrics.json) file
-<img src="/img/avail/validator-avail-grafana-add-dashboard-2.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-grafana-add-dashboard-2.png" width="100%" height="100%"/>
 
 You will have a new dashboard that opens and that you can use to monitor your node
-<img src="/img/avail/validator-avail-grafana-add-dashboard-3.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-grafana-add-dashboard-3.png" width="100%" height="100%"/>
