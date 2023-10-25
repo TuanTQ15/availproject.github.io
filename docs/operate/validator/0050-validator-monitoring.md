@@ -23,7 +23,7 @@ designated endpoint, allowing you to observe information regarding your nodes be
 Avail project has made available a [public telemetry](http://telemetry.avail.tools/) for anyone to view the status of their nodes. This should not replace your own monitoring and alerts. However it is a key tool that anyone can use to view the status
 of their nodes at anytime.
 
-<img src="/img/avail/validator-avail-telemetry.png" width="100%" height="100%"/>
+<img src="../../../static/img/avail/validator-avail-telemetry.png" width="100%" height="100%"/>
 
 Avail telemetry has been added to the chain specification file and should automatically send telemetry data to Avail [public telemetry](http://telemetry.avail.tools/). You can however also
 add the telemetry `--telemetry-url 'ws://telemetry.avail.tools:8001/submit/ 0'` to your avail node start command if your node is not visible on the public telemetry.
