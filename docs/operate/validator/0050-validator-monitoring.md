@@ -171,7 +171,7 @@ Set URL to "localhost:9090", then test and save the connection
 Navigate back to your home page, on the top right in the menu select **Import dashboard**
 <img src="../../../static/img/avail/validator-avail-grafana-add-dashboard.png" width="100%" height="100%"/>
 
-Import the <a href="../../../static/grafana/Avail-Node-Metrics.json" download>Avail Node Metrics</a> file
+Import the [Avail Node Metrics](https://raw.githubusercontent.com/availproject/availproject.github.io/main/static/grafana/Avail-Node-Metrics.json) file
 <img src="../../../static/img/avail/validator-avail-grafana-add-dashboard-2.png" width="100%" height="100%"/>
 
 You will have a new dashboard that opens and that you can use to monitor your node
